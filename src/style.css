@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 40%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+
+.text-logo img, .text-logo span{
+  display:inline-block;
+  vertical-align:top;
+}
+
+.text-logo img{
+    width: 50px;
+    height: 50px;
+  margin-top:5px;
+}
+
+.title {
+  padding: 3%;
+  color: #444;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 0;
+  position: relative;
+  border: 1px solid #dddddd;
+  margin-bottom: 45px;
+}
+
+
+form input[type='text'] {
+  border: none;
+  font-style: italic;
+  width: 85%;
+  padding: 3%;
+  text-align: right;
+}
+
+form .add-btn {
+  position: relative;
+  /* right: 3.2%; */
+  left: 20px;
+}
+
+input[type='text']:focus {
+  outline: none;
+}
+
+ul{
+  list-style-type: none;
+  text-align: right;
+  background-color: rgb(255, 247, 178);
+}
+
+li{
+  padding: 0;
+  border: 1px solid #ccc;
+  height: 55px;
+}
+
+.remove-btn{
+  margin-right: 530px;
+  margin-top: 9px;
+}
+
+.todo-edit{
+  border: none;
+  text-align: right;
+  display: inline;
+  background-color: rgb(255, 247, 178);
+  margin-right: 6px;
+  margin-bottom: 50%;
+}
+
+.todo-check{
+  float: right;
+  margin-right: 6px;
+  margin-top: 3px;
+}
+
+button {
+  background: none;
+  color: #444;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.clear {
+  background-color: #9dc6fb;
+  text-align: center;
+  padding: 3%;
+  margin-top: 45px;
+  border-radius: 8px;
+}
+
+.clear a {
+  cursor: pointer;
+}
+
+.clear a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+
+.checked {
+  text-decoration: line-through;
+  color: rgba(129, 129, 129, 0.548);
+}
+
+.fa-trash{
+  margin-top: 20px;
+}
+
+i .fa-trash :hover{
+  background-color: rgb(187, 4, 4);
+}
